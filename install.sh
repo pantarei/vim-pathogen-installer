@@ -15,7 +15,7 @@ mv $HOME/.vim* $TMP_DIR/orig/
 # Clone repo into temp folder.
 cd $TMP_DIR
 git clone --recursive --branch $BRANCH https://github.com/phpshift/vim-pathogen-installer.git
-cp $TMP_DIR/vim-pathogen/.vimrc $HOME/
+cp $TMP_DIR/vim-pathogen-installer/.vimrc $HOME/
 
 # Fetch vim-pathogen.
 git clone https://github.com/tpope/vim-pathogen.git $VIM_DIR
