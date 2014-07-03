@@ -1,7 +1,7 @@
 vim-pathogen-installer
 ======================
 
-Wrapper for vim-pathogen installation.
+Wrapper for [vim-pathogen](https://github.com/tpope/vim-pathogen) installation.
 
 Run this script with:
 
