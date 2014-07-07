@@ -33,6 +33,7 @@ git clone https://github.com/saltstack/salt-vim.git $VIM_BUNDLE_DIR/vim-salt
 git clone https://github.com/scrooloose/syntastic.git $VIM_BUNDLE_DIR/vim-syntastic
 git clone https://github.com/sickill/vim-pasta.git $VIM_BUNDLE_DIR/vim-pasta
 git clone https://github.com/stephpy/vim-php-cs-fixer.git $VIM_BUNDLE_DIR/vim-php-cs-fixer
+git clone https://github.com/stephpy/vim-yaml.git $VIM_BUNDLE_DIR/vim-yaml
 git clone https://github.com/tokutake/twig-indent $VIM_BUNDLE_DIR/vim-twig-indent
 git clone https://github.com/tpope/vim-git $VIM_BUNDLE_DIR/vim-git
 git clone https://github.com/tpope/vim-sensible.git $VIM_BUNDLE_DIR/vim-sensible
