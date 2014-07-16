@@ -14,7 +14,6 @@ set shiftwidth=4
 set smartindent
 set swapfile
 set tabstop=4
-set textwidth=80
 
 let g:php_cs_fixer_enable_default_mapping = 1
 let g:vim_markdown_folding_disabled=1
