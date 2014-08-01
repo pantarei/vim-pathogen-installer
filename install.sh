@@ -4,11 +4,7 @@ set -o xtrace
 
 # Define variables.
 BRANCH="master"
-
-TMP_DIR=`mktemp -d`
-if [ -z "$TMP_DIR" ]; then
-    TMP_DIR=`mktemp -d -t ''`
-fi
+TMP_DIR=`mktemp -d -t vim-pathogen-installer.XXXXXX`
 
 VIM_DIR=$HOME/.vim
 VIM_BUNDLE_DIR=$VIM_DIR/bundle
