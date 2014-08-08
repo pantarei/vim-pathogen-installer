@@ -22,7 +22,6 @@ cp $TMP_DIR/vim-pathogen-installer/.vimrc $HOME/
 git clone https://github.com/tpope/vim-pathogen.git $VIM_DIR
 
 # Fetch latest bundles.
-git clone http://git.drupal.org/project/vimrc.git $VIM_BUNDLE_DIR/vim-drupal
 git clone https://github.com/StanAngeloff/php.vim $VIM_BUNDLE_DIR/vim-php
 git clone https://github.com/elzr/vim-json.git $VIM_BUNDLE_DIR/vim-json
 git clone https://github.com/evidens/vim-twig.git $VIM_BUNDLE_DIR/vim-twig
@@ -38,6 +37,10 @@ git clone https://github.com/stephpy/vim-yaml.git $VIM_BUNDLE_DIR/vim-yaml
 git clone https://github.com/tokutake/twig-indent $VIM_BUNDLE_DIR/vim-twig-indent
 git clone https://github.com/tpope/vim-git $VIM_BUNDLE_DIR/vim-git
 git clone https://github.com/tpope/vim-sensible.git $VIM_BUNDLE_DIR/vim-sensible
+
+# Drupal's vim plugin need special handling...
+git clone http://git.drupal.org/project/vimrc.git $TMP_DIR/vim-drupal
+mv $TMP_DIR/vim-drupal/bundle/vim-plugin-for-drupal/ $VIM_BUNDLE_DIR/vim-drupal
 
 # Post-install cleanup
 cp -rfp $TMP_DIR/orig/.viminfo $HOME/
