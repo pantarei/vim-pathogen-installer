@@ -28,6 +28,7 @@ git clone https://github.com/evidens/vim-twig.git $VIM_BUNDLE_DIR/vim-twig
 git clone https://github.com/groenewege/vim-less $VIM_BUNDLE_DIR/vim-less
 git clone https://github.com/hail2u/vim-css3-syntax.git $VIM_BUNDLE_DIR/vim-css3-syntax
 git clone https://github.com/othree/html5.vim.git $VIM_BUNDLE_DIR/vim-html5
+git clone https://github.com/pangloss/vim-javascript.git $VIM_BUNDLE_DIR/vim-javascript
 git clone https://github.com/plasticboy/vim-markdown.git $VIM_BUNDLE_DIR/vim-markdown
 git clone https://github.com/saltstack/salt-vim.git $VIM_BUNDLE_DIR/vim-salt
 git clone https://github.com/scrooloose/syntastic.git $VIM_BUNDLE_DIR/vim-syntastic
