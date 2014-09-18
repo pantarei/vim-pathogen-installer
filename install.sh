@@ -23,6 +23,7 @@ git clone https://github.com/tpope/vim-pathogen.git $VIM_DIR
 
 # Fetch latest bundles.
 git clone https://github.com/StanAngeloff/php.vim $VIM_BUNDLE_DIR/vim-php
+git clone https://github.com/b4winckler/vim-objc.git $VIM_BUNDLE_DIR/vim-objc.git
 git clone https://github.com/elzr/vim-json.git $VIM_BUNDLE_DIR/vim-json
 git clone https://github.com/evidens/vim-twig.git $VIM_BUNDLE_DIR/vim-twig
 git clone https://github.com/groenewege/vim-less $VIM_BUNDLE_DIR/vim-less
